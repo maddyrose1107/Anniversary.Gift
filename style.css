@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Ensure body and event containers are styled */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #bfb8b8;
+    font-size: large;
+}
+
+.event {
+    background-color: #fff;
+    border: 2px solid #8C1515; /* Stanford Cardinal border color */
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+/* Ensure event headings and paragraphs are styled */
+.event h2 {
+    color: #8C1515;
+}
+
+.event p {
+    color: #020101;
+    font-size: medium;
+}
+
+/* Image Styling */
+.event img {
+    max-width: 100%; /* Ensure images fit within their container */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #8C1515; /* Stanford Cardinal border color */
+    border-radius: 4px;
+    margin: 10px 0; /* Add spacing around images */
+}
+
+/* Responsive Layout for Smaller Screens */
+@media (max-width: 768px) {
+    .event img {
+        width: 90%; /* Adjust image width on smaller screens */
+    }
+}
+/* styles.css */
+
+.audio-container {
+    background-color: #fff;
+    border: 2px solid #8C1515; /* Stanford Cardinal border color */
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    color: #8C1515;
+}
+
+audio {
+    width: 100%; /* Make the audio player responsive */
+    border: 2px solid #8C1515; /* Stanford Cardinal border color */
+    border-radius: 4px;
+}
+
+    
